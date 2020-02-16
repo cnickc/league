@@ -1,0 +1,82 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "i18n:report": "vue-cli-service i18n:report --src './src/**/*.?(js|vue)' --locales './src/locales/**/*.json'"
+  },
+  "dependencies": {
+    "core-js": "^3.6.4",
+    "node-sass": "^4.13.1",
+    "sass-loader": "^8.0.2",
+    "vue": "^2.6.11",
+    "vue-i18n": "^8.0.0",
+    "vue-router": "^3.1.5",
+    "vuex": "^3.1.2"
+  },
+  "devDependencies": {
+    "@kazupon/vue-i18n-loader": "^0.3.0",
+    "@vue/cli-plugin-babel": "~4.2.0",
+    "@vue/cli-plugin-eslint": "~4.2.0",
+    "@vue/cli-plugin-router": "^4.2.2",
+    "@vue/cli-plugin-vuex": "^4.2.2",
+    "@vue/cli-service": "~4.2.0",
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.1.2",
+    "vue-cli-plugin-i18n": "^0.6.1",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {
+      "vue/attribute-hyphenation": 1,
+      "vue/html-closing-bracket-newline": 1,
+      "vue/html-closing-bracket-spacing": 1,
+      "vue/html-end-tags": 1,
+      "vue/html-quotes": 1,
+      "vue/html-self-closing": 1,
+      "vue/multiline-html-element-content-newline": 1,
+      "vue/mustache-interpolation-spacing": 1,
+      "vue/name-property-casing": 1,
+      "vue/no-multi-spaces": 1,
+      "vue/no-spaces-around-equal-signs-in-attribute": 1,
+      "vue/no-template-shadow": 1,
+      "vue/prop-name-casing": 1,
+      "vue/require-default-prop": 1,
+      "vue/require-prop-types": 1,
+      "vue/singleline-html-element-content-newline": 1,
+      "vue/v-bind-style": 1,
+      "vue/v-on-style": 1,
+      "vue/attributes-order": 1,
+      "vue/no-confusing-v-for-v-if": 1,
+      "vue/no-v-html": 1,
+      "vue/order-in-components": 1,
+      "vue/this-in-template": 1,
+      "vue/array-bracket-spacing": 1,
+      "vue/arrow-spacing": 1,
+      "vue/block-spacing": 1,
+      "vue/brace-style": 1,
+      "vue/camelcase": 1,
+      "vue/eqeqeq": 1,
+      "vue/no-irregular-whitespace": 1
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}
