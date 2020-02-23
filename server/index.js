@@ -6,6 +6,9 @@ const app = express()
 
 app.use(bodyParser.json())
 
+const apiRoute = require('./routes/api')
+app.use('/api', apiRoute)
+
 const testRoute = require('./routes/test')
 app.use('/test', testRoute)
 
