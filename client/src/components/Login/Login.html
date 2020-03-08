@@ -1,0 +1,6 @@
+<div id="login">
+    <h1>{{ $t('login') }}</h1>
+    <input type="text" name="username" v-model="input.username" :placeholder="[[ $t('username') ]]" />
+    <input type="password" name="password" v-model="input.password" :placeholder="[[ $t('password') ]]" />
+    <button type="button" v-on:click="login()">{{ $t('login-button') }}</button>
+</div>

@@ -5,7 +5,9 @@
       src="../assets/logo.png"
     >
     <LocaleChanger />
+    <Login />
     <HelloWorld msg="Welcome to Your Vue.js App" />
+
   </div>
 </template>
 
@@ -13,12 +15,14 @@
 // @ is an alias to /src
 import HelloWorld from '@/components/HelloWorld/HelloWorld.vue'
 import LocaleChanger from '@/components/LocaleChanger/LocaleChanger.vue'
+import Login from '@/components/Login/Login.vue'
 
 export default {
   name: 'Home',
   components: {
     HelloWorld,
-    LocaleChanger
+    LocaleChanger,
+    Login
   }
 }
 </script>
